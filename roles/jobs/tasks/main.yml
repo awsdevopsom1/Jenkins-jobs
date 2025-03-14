@@ -10,7 +10,7 @@
 - name: Create a jenkins job using basic authentication
   community.general.jenkins_job:
     config: "{{ lookup('template', 'templates/mjobs.xml') }}"
-    name: "{{item.folders}}/{{item.name}}"
+    name: "{{item.folder}}/{{item.name}}"
     password: om
     url: http://54.226.177.177:8080
     user: om
@@ -19,7 +19,7 @@
 - name: Create a jenkins job using basic authentication
   community.general.jenkins_job:
     config: "{{ lookup('template', 'templates/sjobs.xml') }}"
-    name: "{{item.folders}}/{{item.name}}"
+    name: "{{item.folder}}/{{item.name}}"
     password: om
     url: http://54.226.177.177:8080
     user: om
