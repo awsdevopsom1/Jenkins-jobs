@@ -23,5 +23,5 @@
     password: om
     url: http://54.226.177.177:8080
     user: om
-  loop: "{{ sb_jobs: }}" 
+  loop: "{{ sb_jobs }}" 
 
