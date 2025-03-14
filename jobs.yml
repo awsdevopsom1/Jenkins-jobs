@@ -10,6 +10,6 @@
     mb_jobs: 
        - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/awsdevopsom1/expense-ansible.git"}
        - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/awsdevopsom1/expense-terraform.git" }
-    sd_jobs:
+    sb_jobs:
        - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/awsdevopsom1/expense-ansible.git" }
        - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/awsdevopsom1/expense-ansible.git"}  
